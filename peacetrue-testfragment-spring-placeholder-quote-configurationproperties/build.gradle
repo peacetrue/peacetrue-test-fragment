@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.peacetrue.testfragment'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.16.20'
+    annotationProcessor 'org.projectlombok:lombok:1.16.20'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor:2.0.6.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter:2.0.6.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.0.2.RELEASE'
+}

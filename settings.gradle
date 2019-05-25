@@ -1,0 +1,3 @@
+rootProject.name = 'peacetrue-testfragment'
+include('peacetrue-testfragment-spring-placeholder-quote-configurationproperties')
+
